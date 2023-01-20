@@ -1,7 +1,26 @@
 import './login.scss'
 const Login = () => {
   return (
-    <div>Login</div>
+    <div className='login'>
+      <div className="card">
+        <div className="left">
+          <h1>Chizoba Messenger</h1>
+          <p>
+          Welcome to Chizoba social media app! Connect with friends and family, share updates, and stay in the loop. Sign in to access your personalized feed and join the conversation today.
+          </p>
+          <span>Do you have an account?</span>
+          <button>Register</button>
+        </div>
+        <div className="right">
+          <h1>Login</h1>
+          <form>
+            <input type="text" placeholder='Username' />
+            <input type="password" placeholder='Pasword' />
+            <button>Login</button>
+          </form>
+        </div>
+      </div>
+    </div>
   )
 }
 
