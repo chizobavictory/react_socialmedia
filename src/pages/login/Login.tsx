@@ -1,4 +1,6 @@
 import './login.scss'
+import { Link } from "react-router-dom";
+
 const Login = () => {
   return (
     <div className='login'>
@@ -9,7 +11,9 @@ const Login = () => {
           Welcome to Chizoba social media app! Connect with friends and family, share updates, and stay in the loop. Sign in to access your personalized feed and join the conversation today.
           </p>
           <span>Do you have an account?</span>
+          <Link to='/register'>
           <button>Register</button>
+          </Link>
         </div>
         <div className="right">
           <h1>Login</h1>
